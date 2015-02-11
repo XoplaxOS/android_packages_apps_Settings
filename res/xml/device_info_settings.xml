@@ -22,11 +22,11 @@
                 android:enabled="false"
                 android:layout="@layout/xoplaxos_banner" />
 
-        <!-- Devices and Maintainers -->
+        <!-- About XoplaxOS -->
         <PreferenceScreen
-            android:key="devices"
-            android:title="@string/device_maintainers_title"
-            android:fragment="com.android.settings.xoplax.Devices" />
+            android:key="about"
+            android:title="@string/about_xoplax"
+            android:fragment="com.android.settings.xoplax.About" />
 
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
