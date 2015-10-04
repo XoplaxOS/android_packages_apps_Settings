@@ -21,9 +21,9 @@
         <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">You have enabled development settings!</string>
+    <string name="show_dev_on_cm">Hooray! All hail to developer!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">No need, you have already enabled development settings.</string>
+    <string name="show_dev_already_cm">Stop it. You've already become a developer, don't ya?</string>
 
     <!-- Launch Dev Tools -->
     <string name="development_tools_title">Development tools</string>
@@ -286,17 +286,17 @@
     <string name="block_notifications_summary">Manage ignored notifications and filters</string>
     <string name="no_filters_title">No filters set</string>
 
-    <!-- CM Updater -->
-    <string name="cmupdate_settings_title">CyanogenMod updates</string>
+    <!-- XOS OTA Update -->
+    <string name="cmupdate_settings_title">Xoplax OS updates</string>
 
-    <!-- Settings switch for updating Cyanogen recovery -->
-    <string name="update_recovery_title">Update Cyanogen recovery</string>
+    <!-- Settings switch for updating Xoplax OS recovery -->
+    <string name="update_recovery_title">Update Xoplax OS recovery</string>
     <string name="update_recovery_summary">Update recovery with system updates</string>
     <string name="update_recovery_on_warning">NOTICE: When this feature is enabled, your installed recovery will be replaced by one included with the current version of the running OS.\n\nYour recovery will be updated along with upgrades to your system, helping to ensure compatibility with future versions.\n\nWould you like to enable this feature?</string>
     <string name="update_recovery_off_warning">WARNING: When this feature is disabled, your installed recovery will not be updated with OS upgrades.\n\nFuture OS updates may not install with outdated or custom recovery versions.\n\nDo you really want to disable this feature?</string>
 
-    <!-- About phone screen, CyanogenMod version -->
-    <string name="mod_version">CyanogenMod version</string>
+    <!-- About phone screen, Xoplax OS version -->
+    <string name="mod_version">Xoplas OS version</string>
     <string name="mod_version_default">Unknown</string>
 
     <!-- About phone screen, Device model -->
