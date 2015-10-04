@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 XoplaX OS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <!-- Active Display -->
+    <PreferenceScreen
+        android:id="@+id/active_display"
+        android:fragment="com.android.settings.xoplax.ActiveDisplaySettings"
+        android:title="@string/ad_settings_title"
+        android:icon="@drawable/ic_settings_active_display" />
+
+    <!-- Appbar -->
+    <PreferenceScreen
+        android:id="@+id/app_sidebar"
+        android:fragment="com.android.settings.xoplax.AppSidebar"
+        android:title="@string/app_sidebar_title"
+        android:icon="@drawable/ic_settings_appsidebar" />
+
+    <!-- Buttons -->
+    <header
+        settings:includeXmlForSearch="@xml/button_settings"
+        android:id="@+id/button_settings"
+        android:icon="@drawable/ic_settings_buttons"
+        android:fragment="com.android.settings.cyanogenmod.ButtonSettings"
+        android:title="@string/button_settings" />
+
+    <!-- Gesture Anywhere -->
+    <PreferenceScreen
+        android:id="@+id/gesture_anywhere"
+        android:fragment="com.android.settings.xoplax.gestureanywhere.GestureAnywhereSettings"
+        android:title="@string/gesture_anywhere_title"
+        android:icon="@drawable/ic_settings_gesture_anywhere" />
+
+    <!-- Halo -->
+    <PreferenceScreen
+        android:id="@+id/halo_settings"
+        android:fragment="com.android.settings.xoplax.Halo"
+        android:title="@string/halo_settings_title" />
+
+    <!-- Heads Up -->
+    <PreferenceScreen
+        android:id="@+id/heads_up"
+        android:fragment="com.android.settings.xoplax.headsup.HeadsUp"
+        android:title="@string/heads_up_title" />
+
+    <!-- Init.D -->
+    <PreferenceScreen
+        android:id="@+id/initD"
+        android:fragment="com.android.settings.xoplax.InitD"
+        android:title="@string/init_d_title"
+        android:icon="@drawable/ic_settings_init" />
+
+    <!-- Lock screen -->
+    <PreferenceScreen
+        android:id="@+id/lock_screen_settings"
+        android:fragment="com.android.settings.cyanogenmod.LockscreenInterface"
+        android:title="@string/lock_screen_title"
+        android:icon="@drawable/ic_settings_lockscreen" />
+
+    <!-- Notification Bar -->
+    <PreferenceScreen
+        android:id="@+id/notification_bar_settings"
+        android:fragment="com.android.settings.cyanogenmod.NotificationDrawer"
+        android:icon="@drawable/ic_notify_open_normal"
+        android:title="@string/notification_drawer_title" />
+
+    <!-- Pie -->
+    <PreferenceScreen
+        android:id="@+id/pie_settings"
+        android:fragment="com.android.settings.xoplax.pie.PieControl"
+        android:title="@string/pie_control_title"
+        android:icon="@drawable/ic_settings_pie" />
+
+    <!-- ProgressBar -->
+    <PreferenceScreen
+        android:id="@+id/progressbar_settings"
+        android:fragment="com.android.settings.xoplax.ProgressBar"
+        android:title="@string/progressbar_title"
+        android:icon="@drawable/ic_settings_progressbar" />
+
+    <!-- Recent Panel Settings -->
+    <PreferenceScreen
+        android:key="@+id/recents_panel"
+        android:fragment="com.android.settings.xoplax.RecentsPanelSettings"
+        android:title="@string/recents_panel_settings_title"
+        android:icon="@drawable/ic_settings_recents" />
+
+    <!-- Status Bar -->
+    <PreferenceScreen
+        android:id="@+id/status_bar_settings"
+        android:fragment="com.android.settings.cyanogenmod.StatusBar"
+        android:icon="@drawable/ic_settings_statusbar"
+        android:title="@string/status_bar_title" />
+
+    <!-- Dynamic/Tinted Statusbar Settings -->
+    <PreferenceScreen
+        android:key="@+id/tinted_statusbar"
+        android:fragment="com.android.settings.pac.TintedStatusbar"
+        android:title="@string/tinted_statusbar_title"
+        android:icon="@drawable/ic_settings_tinted_statusbar" />
+
+    <!-- Wakelock Blocker Settings -->
+    <PreferenceScreen
+        android:id="@+id/wakelock_blocker"
+        android:fragment="com.android.settings.xoplax.WakeLockBlocker"
+        android:title="@string/wakelock_blocker"
+        android:icon="@drawable/ic_settings_wakelock_blocker" />
+
+</PreferenceScreen>

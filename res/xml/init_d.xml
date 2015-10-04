@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pt_general" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sysctl"
+            android:summary="@string/ps_sysctl"
+            android:title="@string/pt_sysctl" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="setrenice"
+            android:summary="@string/ps_setrenice"
+            android:title="@string/pt_setrenice" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="filesystem"
+            android:summary="@string/ps_filesystem"
+            android:title="@string/pt_filesystem" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="freemem"
+            android:summary="@string/ps_freemem"
+            android:title="@string/pt_freemem" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="cache"
+            android:summary="@string/ps_cache"
+            android:title="@string/pt_cache" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="permissions"
+            android:summary="@string/ps_permissions"
+            android:title="@string/pt_permissions" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="kernel"
+            android:summary="@string/ps_kernel"
+            android:title="@string/pt_kernel" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="cron"
+            android:summary="@string/ps_cron"
+            android:title="@string/pt_cron" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sdboost"
+            android:summary="@string/ps_sdboost"
+            android:title="@string/pt_sdboost" />
+        <EditTextPreference
+            android:defaultValue="2048"
+            android:dialogTitle="@string/pt_ahead"
+            android:key="ahead"
+            android:title="@string/pt_ahead" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="battery"
+            android:summary="@string/ps_battery"
+            android:title="@string/pt_battery" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="touch"
+            android:summary="@string/ps_touch"
+            android:title="@string/pt_touch" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="vm"
+            android:summary="@string/ps_vm"
+            android:title="@string/pt_vm" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="net"
+            android:summary="@string/ps_net"
+            android:title="@string/pt_net" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sleepers"
+            android:summary="@string/ps_sleepers"
+            android:title="@string/pt_sleepers" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="journalism"
+            android:summary="@string/ps_journalism"
+            android:title="@string/pt_journalism" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sqlite"
+            android:summary="@string/ps_sqlite"
+            android:title="@string/pt_sqlite" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="wifisleep"
+            android:summary="@string/ps_wifisleep"
+            android:title="@string/pt_wifisleep" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="iostats"
+            android:summary="@string/ps_iostats"
+            android:title="@string/pt_iostats" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
