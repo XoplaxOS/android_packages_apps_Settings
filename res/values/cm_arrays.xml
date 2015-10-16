@@ -557,4 +557,11 @@
         <item>@string/fingerprint_enrollment_error_title_4</item>
         <item>@string/fingerprint_enrollment_error_title_5</item>
     </string-array>
+    <string-array name="flash_dialog">
+       <item>Flash Package</item>
+     </string-array>
+     <string-array name="install_image_dialog">
+       <item>Install Boot.img</item>
+       <item>Install Recovery.img</item>
+     </string-array>
 </resources>

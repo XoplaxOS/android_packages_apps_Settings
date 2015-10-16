@@ -45,4 +45,7 @@
     <string name="animation_duration_default">Default</string>
     <string name="header_summary_animation">@null</string>    
 
+    <!--FlashON-->
+    <string name="empty">This folder is Empty!</string>
+    <string name="flashon">Flash ON</string>
 </resources>

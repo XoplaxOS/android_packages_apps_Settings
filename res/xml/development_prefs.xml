@@ -18,6 +18,11 @@
         android:title="@string/development_settings_title">
 
     <PreferenceScreen
+          android:id="@+id/flashon"
+          android:title="@string/flashon"
+          android:fragment="com.android.settings.aogp.FileFragment" />
+
+    <PreferenceScreen
             android:key="development_tools"
             android:title="@string/development_tools_title"
             android:persistent="false" >
