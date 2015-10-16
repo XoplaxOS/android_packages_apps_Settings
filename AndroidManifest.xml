@@ -2374,6 +2374,15 @@
                        android:resource="@id/lockscreen_settings" />
         </activity>
 
+	<activity
+            android:name="com.android.settings.aogp.AnimationControls"
+            android:label="@string/title_animation_controls">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.SHORTCUT"/>
+             </intent-filter>
+        </activity>
+
         <provider
             android:name=".search.SettingsSearchIndexablesProvider"
             android:authorities="com.android.settings"

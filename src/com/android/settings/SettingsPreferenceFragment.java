@@ -74,6 +74,11 @@ public class SettingsPreferenceFragment extends PreferenceFragment implements Di
 
     private String mHelpUrl;
 
+    protected Context mContext;
+    
+    // Need to use AOKP Custom system animation
+    protected ContentResolver mContentRes;
+
     // Cache the content resolver for async callbacks
     private ContentResolver mContentResolver;
 
@@ -111,6 +116,11 @@ public class SettingsPreferenceFragment extends PreferenceFragment implements Di
         if (args != null) {
             mPreferenceKey = args.getString(SettingsActivity.EXTRA_FRAGMENT_ARG_KEY);
         }
+
+	mContext = getActivity().getApplicationContext();
+        
+        // Need to use AOKP Custom system animation
+        mContentRes = getActivity().getContentResolver();
 
         if (icicle != null) {
             if (icicle.getString(SAVE_HIGHLIGHTED_KEY_KEY, "").equals(mPreferenceKey)) {
@@ -685,4 +695,9 @@ public class SettingsPreferenceFragment extends PreferenceFragment implements Di
             return false;
         }
     }
+
+    // Need to AOKP Custom system animation
+    public void setTitle(int resId) {
+         getActivity().setTitle(resId);
+    } 
 }
