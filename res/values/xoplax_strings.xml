@@ -51,6 +51,7 @@
     <!--FlashON-->
     <string name="empty">This folder is Empty!</string>
     <string name="flashon">Flash ON</string>
+    <string name="qqq">qqq</string>
 
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>
