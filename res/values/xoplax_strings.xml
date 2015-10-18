@@ -44,6 +44,9 @@
     <string name="summary_animation_no_override">Prevent apps from overriding transitions.</string>
     <string name="animation_duration_default">Default</string>
     <string name="header_summary_animation">@null</string>    
+    <string name="header_summary_animation">@null</string> 
+    <string name="animation_exit_only_title">Enter only animation</string>
+    <string name="animation_reverse_exit_title">Reverse exit animation</string> 
 
     <!--FlashON-->
     <string name="empty">This folder is Empty!</string>
@@ -52,4 +55,5 @@
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
 </resources>
