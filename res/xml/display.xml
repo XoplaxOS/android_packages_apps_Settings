@@ -125,12 +125,6 @@
          android:title="@string/title_animation_controls"
          android:summary="@string/header_summary_animation"
          android:fragment="com.android.settings.aogp.AnimationControls" />     
-
-	<PreferenceScreen
-        android:key="app_circle_bar"
-        android:fragment="com.android.settings.aogp.AppCircleBar"
-        android:title="@string/app_circle_bar_title" />
-
     </PreferenceCategory>
 
     <PreferenceCategory

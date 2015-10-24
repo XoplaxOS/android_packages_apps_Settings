@@ -1,5 +1,5 @@
 /*
- * Performance Control - An Android CPU Control application Copyright (C) 2012
+ * Copyright 2015 The Xoplax OS Project
  * James Roberts
  * 
  * This program is free software: you can redistribute it and/or modify it under
@@ -23,3 +23,5 @@ public interface Constants {
 	//FlashON
     public static final String FLASH_KERNEL = "pref_kernel_img";
     public static final String FLASH_RECOVERY = "pref_recovery_img";
+
+}
