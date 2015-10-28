@@ -125,6 +125,19 @@
          android:title="@string/title_animation_controls"
          android:summary="@string/header_summary_animation"
          android:fragment="com.android.settings.aogp.AnimationControls" />     
+
+	<com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+        android:key="lockscreen_see_through"
+        android:title="@string/lockscreen_see_through_title"
+        android:summary="@string/lockscreen_see_through_summary"
+        android:defaultValue="false" />
+
+        <com.android.settings.widget.SeekBarPreferenceCham
+        android:key="lockscreen_blur_radius"
+        android:title="@string/lockscreen_blur_radius"
+        android:max="25"
+        settings:min="0"
+        android:defaultValue="14" />
     </PreferenceCategory>
 
     <PreferenceCategory
