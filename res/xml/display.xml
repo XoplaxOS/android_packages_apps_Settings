@@ -186,6 +186,11 @@
                 android:defaultValue="true"
                 settings:advanced="true" />
 
+	<PreferenceScreen
+         android:id="@+id/listview"
+         android:fragment="com.android.settings.aogp.Listview"
+         android:title="@string/listview_category" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
