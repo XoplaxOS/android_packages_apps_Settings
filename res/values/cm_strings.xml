@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012-2015 The CyanogenMod Project
+     Copyright (C) 2012-2015 The XoplaxOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -41,11 +41,11 @@
     <string name="root_access_adb">ADB only</string>
     <string name="root_access_all">Apps and ADB</string>
 
-    <!-- About phone screen, CyanogenMod version -->
-    <string name="mod_version">CyanogenMod version</string>
+    <!-- About phone screen, XoplaxOS version -->
+    <string name="mod_version">XoplaxOS version</string>
     <string name="mod_version_default">Unknown</string>
 
-    <!-- About phone screen, CyanogenMod Api Level -->
+    <!-- About phone screen, XoplaxOS Api Level -->
     <string name="mod_api_level">CyanogenMod API level</string>
     <string name="mod_api_level_default">Unknown</string>
 
@@ -647,7 +647,7 @@
 
     <!-- Privacy Settings Header item -->
     <string name="privacy_settings_cyanogenmod_title">Privacy</string>
-    <string name="privacy_settings_cyanogenmod_category" translatable="false">CyanogenMod</string>
+    <string name="privacy_settings_cyanogenmod_category" translatable="false">XoplaxOS</string>
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Enable Privacy Guard</string>
