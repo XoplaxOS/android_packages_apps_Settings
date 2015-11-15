@@ -34,8 +34,8 @@
 
     <!-- Devices and Maintainers -->
     <!-- Lenovo devices -->
-    <string name="device_lenovo_a600">Lenovo A600</string>
-    <string name="device_lenovo_a600_summary">wt86518 \nMaintainer - Anonim47</string>
+    <string name="device_lenovo_a6000">Lenovo A6000</string>
+    <string name="device_lenovo_a6000_summary">wt86518 \nMaintainer - JAV-Team-qcom</string>
 
     <!--Xiaomi devices -->
     <string name="device_xiaomi_r1s">Redmi 1S</string>

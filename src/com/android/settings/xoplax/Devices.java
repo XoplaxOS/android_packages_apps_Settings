@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.pac;
+package com.android.settings.xoplax;
 
 import android.os.Bundle;
 import android.content.res.Resources;

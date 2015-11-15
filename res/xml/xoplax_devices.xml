@@ -30,10 +30,10 @@
              android:title="@string/device_category_lenovo_title" >
 
              <Preference
-                 android:key="device_lenovo_a600"
+                 android:key="device_lenovo_a6000"
                  android:icon="@drawable/xoplax_devices"
-                 android:title="@string/device_lenovo_a600"
-                 android:summary="@string/device_lenovo_a600_summary"
+                 android:title="@string/device_lenovo_a6000"
+                 android:summary="@string/device_lenovo_a6000_summary"
                  android:selectable="false" />
 
         </PreferenceCategory>
