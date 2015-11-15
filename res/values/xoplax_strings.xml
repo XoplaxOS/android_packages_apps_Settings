@@ -99,4 +99,20 @@
     <string name="device_maintainers_title">Devices and Maintainers</string>
     <string name="device_maintainers_title_summary">List of Supported devices by XoplaxOS maintainers</string>
 
+    <!-- Changelog -->
+    <string name="changelog_xoplax_title">Changelog</string>
+    <string name="changelog_xoplax_error">Unable to load changelog</string>
+
+    <!-- About XoplaxOS -->
+    <string name="about_xoplax">About Xoplax OS</string>
+    <string name="sites_xoplax">WebSites XoplaxOS</string>
+    <string name="xoplax_website_title">Website</string>
+    <string name="xoplax_website_summary">Visit our website</string>
+    <string name="xoplax_source_title">Github</string>
+    <string name="xoplax_source_summary">Visit our source git team</string>
+    <string name="xoplax_facebook_title">Facebook</string>
+    <string name="xoplax_facebook_summary">Visit our FB page for support and news</string>
+    <string name="xoplax_kaskus_title">Kaskus</string>
+    <string name="xoplax_kaskus_summary">Visit our Kaskus thread for support and news</string>
+
 </resources>
