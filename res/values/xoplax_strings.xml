@@ -114,5 +114,37 @@
     <string name="xoplax_facebook_summary">Visit our FB page for support and news</string>
     <string name="xoplax_kaskus_title">Kaskus</string>
     <string name="xoplax_kaskus_summary">Visit our Kaskus thread for support and news</string>
+    <string name="share_xoplax_title">Share your love for Xoplax</string>
+    <string name="share_xoplax_summary">Share Xoplax OS to your friends so they can find us!"</string>
+
+        <!-- Phone brand -->
+    <string name="device_category_amazon_title">AMAZON</string>
+    <string name="device_category_asus_title">ASUS</string>
+    <string name="device_category_google_title">GOOGLE</string>
+    <string name="device_category_hp_title">HP</string>
+    <string name="device_category_htc_title">HTC</string>
+    <string name="device_category_lenovo_title">LENOVO</string>
+    <string name="device_category_lg_title">LG</string>
+    <string name="device_category_motorola_title">MOTOROLA</string>
+    <string name="device_category_nvidia_title">NVIDIA</string>
+    <string name="device_category_oneplus_title">ONE PLUS</string>
+    <string name="device_category_samsung_title">SAMSUNG</string>
+    <string name="device_category_sony_title">SONY</string>
+    <string name="device_category_xiaomi_title">XIAOMI</string>
+    <string name="device_category_yu_title">YU</string>
+
+    <!-- Devices and Maintainers -->
+    <!-- Lenovo devices -->
+    <string name="device_lenovo_a6000">Lenovo A6000</string>
+    <string name="device_lenovo_a6000_summary">wt86518 \nMaintainer - JAV-Team-qcom</string>
+
+    <!--Xiaomi devices -->
+    <string name="device_xiaomi_r1s">Redmi 1S</string>
+    <string name="device_xiaomi_r1s_summary">armami \nMaintainer - Anonim47</string>
+    <string name="device_xiaomi_r2">Redmi 2</string>
+    <string name="device_xiaomi_r2_summary">wt88047 \nMaintainer - Anonim47</string>
+
+    <string name="share_message">Check out what #XoplaxOS is all about</string>
+    <string name="share_chooser_title">Share Xoplax OS</string>
 
 </resources>
