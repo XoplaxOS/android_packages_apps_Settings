@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 The Xoplax OS Project
+<!-- Copyright (C) 2015 The Xoplax OS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -142,5 +142,9 @@
 
     <string name="share_message">Check out what #XoplaxOS is all about</string>
     <string name="share_chooser_title">Share Xoplax OS</string>
+
+    <!-- Pie control -->
+    <string name="pie_control_title">Pie control</string>
+    <string name="pie_control_summary">Disables navigation bar</string>
 
 </resources>
